@@ -16,18 +16,3 @@ db = client[DB_NAME]
 users_collection = db["users"]
 sessions_collection = db["sessions"]
 attendance_collection = db["attendance"]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
