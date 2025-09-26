@@ -7,6 +7,7 @@ try:
     from api.student_router import router as student_router
 except ImportError:
     teacher_router = None
+    
     student_router = None
 
 # Create FastAPI app
